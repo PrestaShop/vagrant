@@ -5,6 +5,7 @@ set -xe
 PHP_VERSION=${1:-7.2}
 PR=$2
 BRANCH=$3
+NO_INSTALL=$4
 
 export DEBIAN_FRONTEND=noninteractive
 
@@ -74,6 +75,7 @@ if [ ! -d prestashop ]; then
 fi
 
 pushd prestashop
+rm -rf *
 git checkout .
 git reset --hard HEAD
 git fetch -p
@@ -83,7 +85,13 @@ if [ ! -z "$BRANCH" ]; then
 fi
 
 make install || composer install
+
+if [ -z "${NO_INSTALL}" ]; then
+    php${version} install-dev/index_cli.php --language=en --country=fr --domain=192.168.42.42 --base_uri=prestashop --db_server=127.0.0.1 --db_user=prestashop --db_password=prestashop --db_name=prestashop --db_create=1 --name=prestashop --email=demo@prestashop.com --password=prestashop_demo || true
+fi
+
 popd
 
-chown -hR www-data:www-data prestashop
+chown -hR www-data:www-data ./
+chmod -R ug+rwx ./
 popd

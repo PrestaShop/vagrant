@@ -12,7 +12,8 @@ Vagrant.configure('2') do |config|
   args = [
     Shellwords.escape(ENV['PHP_VERSION']),
     Shellwords.escape(ENV['PR']),
-    Shellwords.escape(ENV['BRANCH'])
+    Shellwords.escape(ENV['BRANCH']),
+    Shellwords.escape(ENV['NO_INSTALL']),
   ]
   config.vm.provision :shell, path: 'script.sh', args: args.join(' ')
 
