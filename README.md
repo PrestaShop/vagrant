@@ -40,3 +40,9 @@ Example:
 PR=17777 BRANCH="1.7.7.x" PHP_VERSION=7.3 vagrant provision
 ```
 
+# Available PHP versions
+
+- 7.1
+- 7.2
+- 7.3
+- 7.4
