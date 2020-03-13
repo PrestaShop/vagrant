@@ -40,6 +40,14 @@ Example:
 PR=17777 BRANCH="1.7.7.x" PHP_VERSION=7.3 vagrant provision
 ```
 
+If you use the `NO_INSTALL` parameter, you can still install it manually by reaching [http://192.168.42.42/prestashop/install-dev](http://192.168.42.42/prestashop/install-dev) and use `prestashop` for database, login and password.
+
+Example:
+
+```bash
+NO_INSTALL=1 BRANCH="develop" PHP_VERSION=7.3 vagrant provision
+```
+
 # Available PHP versions
 
 - 7.1
