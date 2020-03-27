@@ -9,6 +9,8 @@ First of all you need two tools to run this project:
 - [Vagrant](https://www.vagrantup.com/downloads.html)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
+If you're using Windows, we recommend you to download [Git bash](https://git-scm.com/downloads) and execute all commands under this shell.
+
 
 # Usage
 
@@ -33,14 +35,13 @@ BRANCH=1.7.7.x # The based branch, default is "develop"
 PHP_VERSION=7.3 # The PHP version, default is "7.2"
 ```
 
-
 Example:
 
 ```bash
 PR=17777 BRANCH="1.7.7.x" PHP_VERSION=7.3 vagrant provision
 ```
 
-If you use the `NO_INSTALL` parameter, you can still install it manually by reaching [http://192.168.42.42/prestashop/install-dev](http://192.168.42.42/prestashop/install-dev) and use `prestashop` for database, login and password.
+If you use the `NO_INSTALL` parameter, you can install it manually by reaching [http://192.168.42.42/prestashop/install-dev](http://192.168.42.42/prestashop/install-dev).
 
 Example:
 
@@ -54,3 +55,12 @@ NO_INSTALL=1 BRANCH="develop" PHP_VERSION=7.3 vagrant provision
 - 7.2
 - 7.3
 - 7.4
+
+# Database information
+
+phpMyAdmin is available at [http://192.168.42.42/phpmyadmin](http://192.168.42.42/phpmyadmin).
+
+Database name: `prestashop`
+Login: `prestashop`
+Password: `prestashop`
+

@@ -17,7 +17,7 @@ Vagrant.configure('2') do |config|
     Shellwords.escape(ENV['BRANCH']),
     Shellwords.escape(ENV['NO_INSTALL']),
   ]
-  config.vm.provision :shell, path: 'script.sh', args: args.join(' ')
+  config.vm.provision :shell, path: 'provisioning/script.sh', args: args.join(' ')
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
