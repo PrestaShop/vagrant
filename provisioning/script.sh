@@ -5,7 +5,7 @@ set -xe
 PHP_VERSION=${1:-7.2}
 PR=$2
 BRANCH=${3:-develop}
-NO_INSTALL=$4
+AUTOMATIC_INSTALL=${4:-1}
 
 export DEBIAN_FRONTEND=noninteractive
 
@@ -129,7 +129,7 @@ else
 fi
 
 # install PrestaShop
-if [ -z "${NO_INSTALL}" ]; then
+if [ "${AUTOMATIC_INSTALL}" == "1" ]; then
     executeCommand "php${PHP_VERSION} install-dev/index_cli.php --language=en --country=fr --domain=192.168.42.42 --base_uri=prestashop --db_server=127.0.0.1 --db_user=prestashop --db_password=prestashop --db_name=prestashop --db_create=1 --name=prestashop --email=demo@prestashop.com --password=prestashop_demo"
 fi
 
