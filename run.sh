@@ -15,15 +15,4 @@ export PHP_VERSION=$PHP_VERSION
 export BRANCH=$BRANCH
 export PR=$PR
 
-VM_STATUS=$(vagrant status --machine-readable | grep ",state," | egrep -o '([a-z_]*)$')
-case "${VM_STATUS}" in
-  running)
-     vagrant provision
-  ;;
-  poweroff)
-     vagrant up --provision
-  ;;
-  *)
-     echo "Unhandled: ${VM_STATUS}"
-  ;;
-esac
+vagrant up --provision
