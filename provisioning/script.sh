@@ -93,7 +93,7 @@ service apache2 restart
 # Prepare the git repository backup
 pushd /var/www
 if [ ! -d backup/prestashop ]; then
-    mkdir backup
+    mkdir -p backup
     pushd backup
     git clone https://github.com/PrestaShop/PrestaShop.git prestashop
     pushd prestashop
@@ -119,7 +119,7 @@ pushd prestashop
 if [ ! -z "${PR}" ] && [ ! -z "${BRANCH}" ]; then
     executeCommand "git pr origin ${PR} ${BRANCH} || (git rebase --abort && git prm origin ${PR} ${BRANCH})"
 elif [ ! -z "${BRANCH}" ]; then
-    executeCommand "git checkout ${BRANCH}"
+    executeCommand "git checkout ${BRANCH} && git pull origin ${BRANCH}"
 fi
 
 if [ -f Makefile ]; then
