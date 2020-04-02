@@ -9,6 +9,7 @@ Vagrant.configure('2') do |config|
   config.vm.network 'public_network'
   config.vm.network 'private_network', ip: '192.168.42.42'
   config.vm.provision :file, source: './files/phpmyadmin.conf', destination: '/tmp/phpmyadmin.conf'
+  config.vm.provision :file, source: './files/000-default.conf', destination: '/tmp/000-default.conf'
   config.vm.provision :file, source: './files/gitconfig', destination: '.gitconfig'
   config.vm.provision :file, source: './files/gitconfig', destination: '/tmp/gitconfig'
   args = [

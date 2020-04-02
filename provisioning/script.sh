@@ -59,17 +59,22 @@ for version in '7.1' '7.2' '7.3' '7.4'; do
     php${version}-xml \
     php${version}-xsl \
     php${version}-zip
+    sed -i 's/^error_reporting = .*/error_reporting = E_ALL/' /etc/php/${version}/apache2/php.ini
+    sed -i 's/^display_errors = .*/display_errors = On/' /etc/php/${version}/apache2/php.ini
+    sed -i 's/^memory_limit = .*/memory_limit = 512M/' /etc/php/${version}/apache2/php.ini
     a2dismod php${version}
 done
 
 a2enmod php${PHP_VERSION}
 a2enmod rewrite
+a2enmod headers
 
 # Prepare phpmyadmin & gitconfig
 pushd /tmp
 cp gitconfig /root/.gitconfig
 cp phpmyadmin.conf /etc/apache2/conf-available/phpmyadmin.conf
 a2enconf phpmyadmin.conf
+cp 000-default.conf /etc/apache2/sites-available/000-default.conf
 
 if [ ! -d /usr/share/phpmyadmin ]; then
     wget https://files.phpmyadmin.net/phpMyAdmin/4.9.4/phpMyAdmin-4.9.4-all-languages.zip
@@ -122,10 +127,9 @@ elif [ ! -z "${BRANCH}" ]; then
     executeCommand "git checkout ${BRANCH} && git pull origin ${BRANCH}"
 fi
 
+executeCommand "php${PHP_VERSION} /usr/local/bin/composer install"
 if [ -f Makefile ]; then
-    executeCommand "make install"
-else
-    executeCommand "composer install"
+    executeCommand "make assets"
 fi
 
 # install PrestaShop
