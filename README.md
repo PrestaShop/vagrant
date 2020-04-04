@@ -25,9 +25,9 @@ If you're using Windows, we recommend you to download [Git bash](https://git-scm
 
 ## Shortcuts
 
-For OSX and Linux users, you can execute the `run.sh`.
+For OSX and Linux users, you can execute the `run.sh` and if you're running under Windows use `run.bat`.
 
-# Parameters
+## Parameters
 
 There are four environment variables you can use to customize your installation
 
@@ -50,6 +50,21 @@ Example:
 
 ```bash
 AUTOMATIC_INSTALL=0 BRANCH="develop" PHP_VERSION=7.3 vagrant provision
+```
+
+## Install a module
+
+```bash
+MODULE=ps_facetedsearch # Which module you want to install
+BRANCH=dev # default is "dev"
+```
+
+If you use the `MODULE` parameter, `PR`, and `BRANCH` will target the module GitHub repository.
+
+Example:
+
+```bash
+MODULE=ps_facetedsearch BRANCH=dev PR=42 vagrant provision
 ```
 
 # Available PHP versions

@@ -17,6 +17,7 @@ Vagrant.configure('2') do |config|
     Shellwords.escape(ENV['PR']),
     Shellwords.escape(ENV['BRANCH']),
     Shellwords.escape(ENV['AUTOMATIC_INSTALL']),
+    Shellwords.escape(ENV['MODULE'])
   ]
   config.vm.provision :shell, path: 'provisioning/script.sh', args: args.join(' ')
 
