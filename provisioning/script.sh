@@ -141,7 +141,6 @@ function prepare_branch() {
 }
 
 
-pushd /var/www
 if [ -z "${MODULE}" ]; then
     prepare_apt
     prepare_mysql
@@ -150,6 +149,7 @@ if [ -z "${MODULE}" ]; then
     prepare_apache
     prepare_git_repository
 
+    pushd /var/www
     # Fetch origin
     pushd backup/prestashop
     git fetch -p
@@ -175,7 +175,9 @@ if [ -z "${MODULE}" ]; then
     fi
 
     popd
+    popd
 else
+    pushd /var/www
     pushd html/prestashop/modules
     rm -rf $MODULE
     execute_command "git clone https://github.com/PrestaShop/${MODULE}.git ${MODULE}"
@@ -187,6 +189,6 @@ else
 
     prepare_branch
     popd
-fi
 
-popd
+    popd
+fi
