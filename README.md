@@ -73,7 +73,7 @@ MODULE=ps_facetedsearch BRANCH=dev PR=42 vagrant provision
 If you still don't care about parameters, run the `install-modules.sh` or `install-modules.bat` for Windows users.
 
 
-# Environmenst
+# Environments
 
 ## Available PHP versions
 
