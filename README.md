@@ -25,18 +25,19 @@ If you're using Windows, we recommend you to download [Git bash](https://git-scm
 
 ## Shortcuts
 
-For OSX and Linux users, you can execute the `run.sh` and if you're running under Windows use `run.bat`.
+If you don't care about parameters and only want to follow instruction, you can execute the `run.sh` for OSX and Linux users, and if you're running under Windows use `run.bat`.
 
 ## Parameters
 
-There are four environment variables you can use to customize your installation
+You can use to customize your installation:
 
-```bash
-AUTOMATIC_INSTALL=0 # To don't install PrestaShop, default is "1"
-PR=123456 # Choose the wanted pull request
-BRANCH=1.7.7.x # The based branch, default is "develop"
-PHP_VERSION=7.3 # The PHP version, default is "7.2"
-```
+| Parameter         | Description                                                           | Default value |
+|-------------------|-----------------------------------------------------------------------|---------------|
+| AUTOMATIC_INSTALL | Set to "0" if you don't want to install PrestaShop while provisioning | 1             |
+| PR                | Choose the wanted pull request to test                                |               |
+| BRANCH            | The based branch                                                      | develop       |
+| PHP_VERSION       | The PHP version for the current environment                           | 7.2           |
+
 
 Example:
 
@@ -52,33 +53,51 @@ Example:
 AUTOMATIC_INSTALL=0 BRANCH="develop" PHP_VERSION=7.3 vagrant provision
 ```
 
-## Install a module
+## Install and test a module
 
-```bash
-MODULE=ps_facetedsearch # Which module you want to install
-BRANCH=dev # default is "dev"
-```
 
-If you use the `MODULE` parameter, `PR`, and `BRANCH` will target the module GitHub repository.
+| Parameter         | Description                              | Default value |
+|-------------------|------------------------------------------|---------------|
+| MODULE            | Which module you want to clone and test  | 1             |
+| PR                | Choose the wanted pull request to test   |               |
+| BRANCH            | The based branch                         | dev           |
+
 
 Example:
 
 ```bash
 MODULE=ps_facetedsearch BRANCH=dev PR=42 vagrant provision
 ```
+### Shortcuts
 
-# Available PHP versions
+If you still don't care about parameters, run the `install-modules.sh` or `install-modules.bat` for Windows users.
+
+
+# Environmenst
+
+## Available PHP versions
 
 - 7.1
 - 7.2
 - 7.3
 - 7.4
 
-# Database information
+## PrestaShop
+
+- Username: `demo@prestashop.com`
+- Password: `prestashop_demo`
+
+## MySQL
 
 phpMyAdmin is available at [http://192.168.42.42/phpmyadmin](http://192.168.42.42/phpmyadmin).
 
-Database name: `prestashop`
-Login: `prestashop`
-Password: `prestashop`
+- MySQL Host: `127.0.0.1`
+- Database name: `prestashop`
+- Username: `prestashop`
+- Password: `prestashop`
+- Port: `3306`
+
+## SSH
+
+You can login into the virtual machine with `vagrant ssh`
 
