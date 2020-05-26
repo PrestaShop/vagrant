@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_category>
+  <fields id="name" class="Category" sql="a.id_category &gt; 2" image="c">
+    <field name="id_parent" relation="category"/>
+    <field name="active"/>
+    <field name="is_root_category"/>
+  </fields>
+  <entities>
+    <category id_parent="Root" id="nobis" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="et" active="1" is_root_category="0"/>
+    <category id_parent="Root" id="blanditiis" active="1" is_root_category="0"/>
+    <category id_parent="blanditiis" id="consequatur" active="1" is_root_category="0"/>
+    <category id_parent="Root" id="veritatis" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="non" active="1" is_root_category="0"/>
+    <category id_parent="nobis" id="non" active="0" is_root_category="0"/>
+    <category id_parent="Home" id="pariatur" active="1" is_root_category="0"/>
+    <category id_parent="non" id="impedit" active="0" is_root_category="0"/>
+    <category id_parent="veritatis" id="aperiam" active="1" is_root_category="0"/>
+    <category id_parent="pariatur" id="quo" active="1" is_root_category="0"/>
+    <category id_parent="nobis" id="rerum" active="1" is_root_category="0"/>
+    <category id_parent="Root" id="dicta" active="1" is_root_category="0"/>
+    <category id_parent="impedit" id="dolor" active="1" is_root_category="0"/>
+    <category id_parent="dolor" id="quia" active="1" is_root_category="0"/>
+  </entities>
+</entity_category>

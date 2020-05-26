@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_feature>
+  <fields class="Feature">
+    <field name="position"/>
+  </fields>
+  <entities>
+    <feature id="1" position="72"/>
+    <feature id="2" position="15"/>
+    <feature id="3" position="67"/>
+    <feature id="4" position="93"/>
+    <feature id="5" position="55"/>
+    <feature id="6" position="75"/>
+    <feature id="7" position="14"/>
+    <feature id="8" position="63"/>
+    <feature id="9" position="62"/>
+    <feature id="10" position="10"/>
+    <feature id="11" position="50"/>
+    <feature id="12" position="52"/>
+    <feature id="13" position="58"/>
+    <feature id="14" position="1"/>
+    <feature id="15" position="89"/>
+    <feature id="16" position="23"/>
+    <feature id="17" position="2"/>
+    <feature id="18" position="59"/>
+    <feature id="19" position="43"/>
+    <feature id="20" position="74"/>
+    <feature id="21" position="8"/>
+    <feature id="22" position="20"/>
+    <feature id="23" position="97"/>
+    <feature id="24" position="74"/>
+    <feature id="25" position="27"/>
+    <feature id="26" position="11"/>
+    <feature id="27" position="21"/>
+    <feature id="28" position="71"/>
+    <feature id="29" position="24"/>
+    <feature id="30" position="31"/>
+  </entities>
+</entity_feature>

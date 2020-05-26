@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_order_message>
+  <fields id="name" class="OrderMessage"/>
+  <entities>
+    <order_message id="quis"/>
+    <order_message id="quisquam"/>
+    <order_message id="dolore"/>
+    <order_message id="dignissimos"/>
+    <order_message id="necessitatibus"/>
+    <order_message id="sunt"/>
+    <order_message id="molestiae"/>
+    <order_message id="consequatur"/>
+    <order_message id="non"/>
+    <order_message id="unde"/>
+    <order_message id="soluta"/>
+    <order_message id="et"/>
+    <order_message id="laudantium"/>
+    <order_message id="quibusdam"/>
+    <order_message id="voluptas"/>
+    <order_message id="at"/>
+    <order_message id="excepturi"/>
+    <order_message id="praesentium"/>
+    <order_message id="numquam"/>
+    <order_message id="fuga"/>
+  </entities>
+</entity_order_message>

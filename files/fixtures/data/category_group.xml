@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_category_group>
+  <fields primary="id_category, id_group">
+    <field name="id_category" relation="category"/>
+    <field name="id_group" relation="group"/>
+  </fields>
+  <entities>
+    <category_group id_category="Root" id_group="Visitor" id="1"/>
+    <category_group id_category="Home" id_group="Visitor" id="2"/>
+    <category_group id_category="nobis" id_group="Visitor" id="3"/>
+    <category_group id_category="et" id_group="Visitor" id="4"/>
+    <category_group id_category="blanditiis" id_group="Visitor" id="5"/>
+    <category_group id_category="consequatur" id_group="Visitor" id="6"/>
+    <category_group id_category="veritatis" id_group="Visitor" id="7"/>
+    <category_group id_category="non" id_group="Visitor" id="8"/>
+    <category_group id_category="pariatur" id_group="Visitor" id="9"/>
+    <category_group id_category="impedit" id_group="Visitor" id="10"/>
+    <category_group id_category="aperiam" id_group="Visitor" id="11"/>
+    <category_group id_category="quo" id_group="Visitor" id="12"/>
+    <category_group id_category="rerum" id_group="Visitor" id="13"/>
+    <category_group id_category="dicta" id_group="Visitor" id="14"/>
+    <category_group id_category="dolor" id_group="Visitor" id="15"/>
+    <category_group id_category="quia" id_group="Visitor" id="16"/>
+    <category_group id_category="Root" id_group="Guest" id="17"/>
+    <category_group id_category="Home" id_group="Guest" id="18"/>
+    <category_group id_category="nobis" id_group="Guest" id="19"/>
+    <category_group id_category="et" id_group="Guest" id="20"/>
+    <category_group id_category="blanditiis" id_group="Guest" id="21"/>
+    <category_group id_category="consequatur" id_group="Guest" id="22"/>
+    <category_group id_category="veritatis" id_group="Guest" id="23"/>
+    <category_group id_category="non" id_group="Guest" id="24"/>
+    <category_group id_category="pariatur" id_group="Guest" id="25"/>
+    <category_group id_category="impedit" id_group="Guest" id="26"/>
+    <category_group id_category="aperiam" id_group="Guest" id="27"/>
+    <category_group id_category="quo" id_group="Guest" id="28"/>
+    <category_group id_category="rerum" id_group="Guest" id="29"/>
+    <category_group id_category="dicta" id_group="Guest" id="30"/>
+    <category_group id_category="dolor" id_group="Guest" id="31"/>
+    <category_group id_category="quia" id_group="Guest" id="32"/>
+    <category_group id_category="Root" id_group="Customer" id="33"/>
+    <category_group id_category="Home" id_group="Customer" id="34"/>
+    <category_group id_category="nobis" id_group="Customer" id="35"/>
+    <category_group id_category="et" id_group="Customer" id="36"/>
+    <category_group id_category="blanditiis" id_group="Customer" id="37"/>
+    <category_group id_category="consequatur" id_group="Customer" id="38"/>
+    <category_group id_category="veritatis" id_group="Customer" id="39"/>
+    <category_group id_category="non" id_group="Customer" id="40"/>
+    <category_group id_category="pariatur" id_group="Customer" id="41"/>
+    <category_group id_category="impedit" id_group="Customer" id="42"/>
+    <category_group id_category="aperiam" id_group="Customer" id="43"/>
+    <category_group id_category="quo" id_group="Customer" id="44"/>
+    <category_group id_category="rerum" id_group="Customer" id="45"/>
+    <category_group id_category="dicta" id_group="Customer" id="46"/>
+    <category_group id_category="dolor" id_group="Customer" id="47"/>
+    <category_group id_category="quia" id_group="Customer" id="48"/>
+  </entities>
+</entity_category_group>

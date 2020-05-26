@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_store>
+  <store id="dolorem" name="dolor" address1="avenue Émile Lombard&#10;47921 Andre-la-Forêt" address2="" hours="[[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;]]"/>
+  <store id="at" name="voluptatem" address1="5, avenue Bonnet&#10;11991 Chauvet" address2="" hours="[[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;]]"/>
+  <store id="et" name="pariatur" address1="497, rue de Caron&#10;52 614 Thibault" address2="" hours="[[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;]]"/>
+  <store id="velit" name="et" address1="rue Pires&#10;60723 Regnier" address2="" hours="[[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;]]"/>
+  <store id="qui" name="est" address1="910, chemin Dominique De Oliveira&#10;59 759 BerthelotVille" address2="" hours="[[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;09:00AM - 07:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;],[&quot;10:00AM - 04:00PM&quot;]]"/>
+</entity_store>
