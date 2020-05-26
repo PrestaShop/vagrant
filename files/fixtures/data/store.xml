@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_store>
+  <fields id="name" class="Store" image="st">
+    <field name="id_country" relation="country"/>
+    <field name="id_state" relation="state"/>
+    <field name="city"/>
+    <field name="postcode"/>
+    <field name="latitude"/>
+    <field name="longitude"/>
+    <field name="phone"/>
+    <field name="fax"/>
+    <field name="email"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <store id_country="AF" id_state="CH" id="dolorem" city="Valentin" postcode="94 079" latitude="-23.692928" longitude="166.371644" email="morel.francois@live.com" phone="" fax="" active="1"/>
+    <store id_country="SE" id_state="VER" id="at" city="Salmon" postcode="85 637" latitude="-77.427575" longitude="47.181501" email="yves30@sfr.fr" phone="" fax="" active="1"/>
+    <store id_country="AR" id_state="JP-09" id="et" city="Evrard-la-Forêt" postcode="18161" latitude="-39.809354" longitude="43.569263" email="leveque.eugene@free.fr" phone="" fax="" active="1"/>
+    <store id_country="BZ" id_state="AU-NSW" id="velit" city="Grosnec" postcode="57432" latitude="-29.525853" longitude="50.888766" email="bernard73@courtois.com" phone="" fax="" active="1"/>
+    <store id_country="MA" id_state="ME" id="qui" city="Neveuboeuf" postcode="11176" latitude="31.877646" longitude="6.329106" email="xtessier@noos.fr" phone="" fax="" active="1"/>
+  </entities>
+</entity_store>

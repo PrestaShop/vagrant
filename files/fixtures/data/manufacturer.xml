@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_manufacturer>
+  <fields id="name" class="Manufacturer" image="m">
+    <field name="name"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <manufacturer id="et voluptatem" name="et voluptatem" active="1"/>
+    <manufacturer id="ad quia" name="ad quia" active="1"/>
+    <manufacturer id="quaerat voluptatibus" name="quaerat voluptatibus" active="1"/>
+    <manufacturer id="dolor sed" name="dolor sed" active="1"/>
+    <manufacturer id="et in" name="et in" active="1"/>
+    <manufacturer id="iure dolore" name="iure dolore" active="1"/>
+    <manufacturer id="dicta est" name="dicta est" active="1"/>
+    <manufacturer id="atque perferendis" name="atque perferendis" active="0"/>
+    <manufacturer id="ut asperiores" name="ut asperiores" active="1"/>
+    <manufacturer id="earum ipsam" name="earum ipsam" active="1"/>
+    <manufacturer id="optio culpa" name="optio culpa" active="1"/>
+    <manufacturer id="corrupti voluptatem" name="corrupti voluptatem" active="0"/>
+    <manufacturer id="aut nulla" name="aut nulla" active="1"/>
+    <manufacturer id="rem sint" name="rem sint" active="1"/>
+    <manufacturer id="ea possimus" name="ea possimus" active="1"/>
+    <manufacturer id="et ut" name="et ut" active="1"/>
+    <manufacturer id="inventore asperiores" name="inventore asperiores" active="1"/>
+    <manufacturer id="deserunt inventore" name="deserunt inventore" active="1"/>
+    <manufacturer id="in molestiae" name="in molestiae" active="1"/>
+    <manufacturer id="error harum" name="error harum" active="1"/>
+  </entities>
+</entity_manufacturer>

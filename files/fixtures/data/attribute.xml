@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_attribute>
+  <fields class="Attribute">
+    <field name="id_attribute_group" relation="attribute_group"/>
+    <field name="color"/>
+  </fields>
+  <entities>
+    <attribute id_attribute_group="3" id="1" color="#0f12e0"/>
+    <attribute id_attribute_group="4" id="2" color="#7d68d8"/>
+    <attribute id_attribute_group="9" id="3" color="#86378c"/>
+    <attribute id_attribute_group="2" id="4" color="#cf5f33"/>
+    <attribute id_attribute_group="1" id="5" color="#6d47d2"/>
+    <attribute id_attribute_group="8" id="6" color="#912d8c"/>
+    <attribute id_attribute_group="7" id="7" color="#380198"/>
+    <attribute id_attribute_group="1" id="8" color="#597d99"/>
+    <attribute id_attribute_group="5" id="9" color="#ceea7b"/>
+    <attribute id_attribute_group="3" id="10" color="#d10956"/>
+  </entities>
+</entity_attribute>

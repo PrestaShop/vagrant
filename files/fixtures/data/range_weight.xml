@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_range_weight>
+  <fields class="RangeWeight">
+    <field name="id_carrier" relation="carrier"/>
+    <field name="delimiter1"/>
+    <field name="delimiter2"/>
+  </fields>
+  <entities>
+    <range_weight id_carrier="sed" id="1" delimiter2="3293" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="2" delimiter2="1576" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="3" delimiter2="6039" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="4" delimiter2="2198" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="5" delimiter2="2319" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="6" delimiter2="4924" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="7" delimiter2="2846" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="8" delimiter2="5485" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="9" delimiter2="3576" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="10" delimiter2="1837" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="11" delimiter2="4033" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="12" delimiter2="3477" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="13" delimiter2="8394" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="14" delimiter2="4161" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="15" delimiter2="4302" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="16" delimiter2="7438" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="17" delimiter2="3537" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="18" delimiter2="5936" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="19" delimiter2="9912" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="20" delimiter2="6849" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="21" delimiter2="7969" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="22" delimiter2="9222" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="23" delimiter2="4210" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="24" delimiter2="8026" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="25" delimiter2="1895" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="26" delimiter2="2863" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="27" delimiter2="4629" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="28" delimiter2="2788" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="29" delimiter2="4198" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="30" delimiter2="1033" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="31" delimiter2="6619" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="32" delimiter2="8344" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="33" delimiter2="9928" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="34" delimiter2="4646" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="35" delimiter2="8443" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="36" delimiter2="6827" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="37" delimiter2="5802" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="38" delimiter2="8501" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="39" delimiter2="8669" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="40" delimiter2="3266" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="41" delimiter2="2405" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="42" delimiter2="5407" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="43" delimiter2="1414" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="44" delimiter2="8356" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="45" delimiter2="1864" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="46" delimiter2="5099" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="47" delimiter2="8289" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="48" delimiter2="9555" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="49" delimiter2="9426" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="50" delimiter2="9549" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="51" delimiter2="4627" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="52" delimiter2="7438" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="53" delimiter2="9667" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="54" delimiter2="7312" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="55" delimiter2="1860" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="56" delimiter2="1311" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="57" delimiter2="3207" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="58" delimiter2="7196" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="59" delimiter2="9902" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="60" delimiter2="8454" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="61" delimiter2="9534" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="62" delimiter2="7715" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="63" delimiter2="3650" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="64" delimiter2="5303" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="65" delimiter2="5487" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="66" delimiter2="2412" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="67" delimiter2="7718" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="68" delimiter2="8685" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="69" delimiter2="6407" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="70" delimiter2="8085" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="71" delimiter2="3590" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="72" delimiter2="8306" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="73" delimiter2="7478" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="74" delimiter2="6484" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="75" delimiter2="3747" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="76" delimiter2="8745" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="77" delimiter2="5791" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="78" delimiter2="7461" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="79" delimiter2="5488" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="80" delimiter2="5385" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="81" delimiter2="5571" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="82" delimiter2="2368" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="83" delimiter2="6349" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="84" delimiter2="3751" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="85" delimiter2="7740" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="86" delimiter2="1114" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="87" delimiter2="6128" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="88" delimiter2="4356" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="89" delimiter2="7711" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="90" delimiter2="7764" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="91" delimiter2="4614" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="92" delimiter2="8304" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="93" delimiter2="8195" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="94" delimiter2="9729" delimiter1="0"/>
+    <range_weight id_carrier="sed" id="95" delimiter2="6497" delimiter1="0"/>
+    <range_weight id_carrier="ipsam" id="96" delimiter2="6448" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="97" delimiter2="8142" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="98" delimiter2="3732" delimiter1="0"/>
+    <range_weight id_carrier="officia" id="99" delimiter2="6048" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="100" delimiter2="1990" delimiter1="0"/>
+  </entities>
+</entity_range_weight>
