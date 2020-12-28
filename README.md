@@ -101,3 +101,6 @@ phpMyAdmin is available at [http://192.168.42.42/phpmyadmin](http://192.168.42.4
 
 You can login into the virtual machine with `vagrant ssh`
 
+## MailCatcher
+
+This vagrant box includes [MailCatcher](https://mailcatcher.me/) and is available trough the SMTP using `192.168.42.42` as SMTP Server and `1025` as Port.
