@@ -30,7 +30,8 @@ function prepare_apt() {
     # update
     apt update
 
-    apt install -y apache2 vim emacs-nox git unzip default-mysql-server imagemagick make nodejs
+    apt install -y apache2 vim emacs-nox git unzip default-mysql-server imagemagick make nodejs \
+        ruby ruby-dev libsqlite3-dev
     for version in ${PHP_VERSIONS[@]}; do
         apt install -y \
             libapache2-mod-php${version} \
@@ -140,9 +141,15 @@ function prepare_branch() {
     fi
 }
 
+function prepare_mailcatcher() {
+    gem install mailcatcher
+    mailcatcher --ip 192.168.42.42
+}
+
 
 if [ -z "${MODULE}" ]; then
     prepare_apt
+    prepare_mailcatcher
     prepare_mysql
     prepare_php
     prepare_tools
