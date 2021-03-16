@@ -31,7 +31,7 @@ function prepare_apt() {
     apt update
 
     apt install -y apache2 vim emacs-nox git unzip default-mysql-server imagemagick make nodejs \
-        ruby ruby-dev libsqlite3-dev
+        ruby ruby-dev libsqlite3-dev build-essential
     for version in ${PHP_VERSIONS[@]}; do
         apt install -y \
             libapache2-mod-php${version} \
@@ -123,6 +123,8 @@ function prepare_git_repository() {
         git clone https://github.com/PrestaShop/PrestaShop.git prestashop
         pushd prestashop
         git config core.fileMode false
+        git config user.email "vagrant@prestashop.com"
+        git config user.name "vagrant"
         popd
         popd
     fi
@@ -143,7 +145,7 @@ function prepare_branch() {
 
 function prepare_mailcatcher() {
     gem install mailcatcher
-    pkill -f mailcatcher
+    pkill -f mailcatcher || true
     mailcatcher --ip 192.168.42.42
 }
 
